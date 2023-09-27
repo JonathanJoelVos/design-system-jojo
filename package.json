@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "turbo": "^1.10.12"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "storybook": "turbo run storybook --parallel",
+    "build": "turbo run build"
+  }
+}

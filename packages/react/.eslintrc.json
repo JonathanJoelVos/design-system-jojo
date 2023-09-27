@@ -1,0 +1,4 @@
+{
+    "extends": "@jojo-ui/eslint-config",
+    "ignorePatterns": ["dist"]
+}
